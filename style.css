@@ -1,0 +1,265 @@
+/* Styling for the whole page */
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+    margin:0;
+    background-image: url(images/baggrundsbillede.png);
+}
+/*Styling for the header*/
+header {
+    background-color: #8c9ceb;
+    color: black;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    text-align: right;
+    padding: 20px 20px;
+    border: 1px solid black;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+
+/* Remove margin-right from the logo */
+header #logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style the navigation bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Display main menu items horizontally */
+}
+
+nav ul li {
+    margin-right: 30px; /* Adjust the spacing between menu items */
+}
+
+/* Style the dropdown menu */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightyellow;
+    padding: 10px; /* Add padding for space between navigation points */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style for navigation points */
+.dropdown-content li {
+    padding: 5px; /* Add vertical padding between navigation points */
+}
+
+.dropdown-content li a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Create a container for the headlines */
+.headline1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+
+}
+
+/* Create a container for the headlines */
+.headline2 {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+
+}
+
+.headline.container {
+    font-size: 15px;
+    margin: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: bold;
+}
+
+
+.article-container {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.emne-overskrift{
+    text-decoration: none;
+    color: darkgrey;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* opdelingslinje til forsiden */
+.split-line {
+    border: 1px solid black; /* Customize the border appearance */
+    margin: 20px 0; /* Adjust the margin to control the spacing */
+}
+
+
+/*styling til søgefunktion*/
+.search-form {
+    text-align: right;
+    margin: 20px auto;
+    
+   
+
+}
+
+#search {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color:beige
+    
+}
+
+button[type="submit"] {
+    background-color:#ccc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* Container for paragraphs*/
+.paragraph-container{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:lighter
+}
+/* Style for artikel bokse */
+.box {
+    width: 300px;
+    background-color: #f6eccd;
+    color: black;
+    text-align: left;
+    margin: 50px;
+    padding: 30px;
+    display: inline-block;
+    border: 1px solid black;
+   
+}
+
+/* Style for billederne i artikelbokse */
+.box img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+/* Style for oveskrifterne i artikelbokse */
+.box h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    
+
+    
+}
+
+/*style for boks i artikler*/
+
+.box-a{
+width: 1200px;
+background-color: #f6eccd;
+color: black;
+text-align: left;
+margin: 50px;
+padding: 50px;
+display: inline-block;
+border: 1px solid black;
+}
+
+.box.lineheight {
+    line-height: 1.5; /* Adjust the line height to your preference */
+}
+
+
+
+/* Style for paragraphs */
+.box p {
+    font-size: 16px;
+    line-height: 1.5;
+    
+
+}
+
+/* Billede til artikel "tegn på ensomhed" */
+.right-aligned-image{
+ position: absolute;
+  right: 20px;
+  padding: 10px;
+}
+
+
+
+
+/* Clear the float to ensure that the footer is displayed below the image */
+.footer {
+    clear: both;
+}
+
+/*footer*/
+footer {
+    background-color: #8c9ceb;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+  
+}
+
+.footer-left {
+    flex: 1;
+}
+
+.footer-left h3 {
+    font-size: 18px;
+}
+
+.footer-left p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer-right {
+    flex: 1;
+    text-align: right;
+}
+
+.footer-right h3 {
+    font-size: 18px;
+}
+
+
+
+
